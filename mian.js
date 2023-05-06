@@ -1,9 +1,9 @@
-  // const Fizz = 3 *i;
-  // const Buzz = 5 *i;
+  // let Fizz = 3 *i;
+  // let Buzz = 5 *i;
 
   //****for文の中にiがあるのに初期値として用意しないといけないと思ってました****/
-  // const FizzNumber = 3;
-  // const BuzzNumber = 5;
+  // let FizzNumber = 3;
+  // let BuzzNumber = 5;
 /********条件式でフィルタリングができていることに気づいていませんでした******/
   for(var i=1; i<=100; i++){
     
