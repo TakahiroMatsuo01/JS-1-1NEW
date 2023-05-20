@@ -1,23 +1,22 @@
-  // let Fizz = 3 *i;
-  // let Buzz = 5 *i;
-
-  //****for文の中にiがあるのに初期値として用意しないといけないと思ってました****/
-  // let FizzNumber = 3;
-  // let BuzzNumber = 5;
-/********条件式でフィルタリングができていることに気づいていませんでした******/
+ 
   for(var i=1; i<=100; i++){
-    
+    /**for文のブロックスコープ開始**/
     if (i % 3 === 0 && i % 5 === 0){
-      // let FizzBuzz =(Fizz * Buzz)/(FizzNumber*BuzzNumber*i);
+    /**if文のブロックスコープ開始**/
       console.log('FizzBuzz',i);
+    /**for文のブロックスコープ終了**/
     }
 
     else if (i % 3 === 0){
+    /**else if文のブロックスコープ開始**/
         console.log('Fizz',i);
+    /**else if文のブロックスコープ終了**/
     }
 
     else if (i % 5 === 0){
+    /**else if文のブロックスコープ開始**/
         console.log('Buzz',i);
+    /**else if文のブロックスコープ終了**/
     }
-
+  /**for文のブロックスコープ終了**/
   }
